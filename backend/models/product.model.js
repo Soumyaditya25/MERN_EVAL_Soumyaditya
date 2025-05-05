@@ -7,11 +7,11 @@ const productSchema = new mongoose.Schema(
 			required: true,
 		},
 		Ingredients: {
-			type: Number,
+			type: String,
 			required: true,
 		},
 		steps: {
-			type: String,
+			type: Number,
 			required: true,
 		},
 		cookingTime: {

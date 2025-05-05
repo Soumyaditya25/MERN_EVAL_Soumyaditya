@@ -91,13 +91,13 @@ const ProductCard = ({ product }) => {
 				</Heading>
 
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					${product.Ingrediants}
+					{product.Ingrediants}
 				</Text>
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					${product.steps}
+					{product.steps}
 				</Text>
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					${product.cookingTime}
+					{product.cookingTime}
 				</Text>
 
 				<HStack spacing={2}>
